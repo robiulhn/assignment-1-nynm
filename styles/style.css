@@ -13,11 +13,11 @@
 
 }
 
-.heading-three{
+.heading-three {
     color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 /* Heading Styles */
@@ -132,7 +132,7 @@ font-weight: 900;
 
 /* Third Section */
 
-.event-address{
+.event-address {
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     margin: 120px auto;
     text-align: center;
@@ -140,15 +140,15 @@ font-weight: 900;
     border-radius: 16px;
 }
 
-.event-info span{
+.event-info span {
     color: #F00;
-font-family: Inter;
-font-size: 32px;
-font-weight: 600;
-line-height: 56px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
 }
 
-.event-info{
+.event-info {
     color: #070211;
     font-family: Inter;
     font-size: 32px;
@@ -156,117 +156,203 @@ line-height: 56px;
     text-transform: capitalize;
 }
 
-.join-now-two{
+.join-now-two {
     margin-top: 64px;
     padding: 16px 32px;
     border-radius: 8px;
     background-color: #F00;
     border: 0;
     color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 /* Section Four */
-.offer-section{
+.offer-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.new-offer{
+.new-offer {
     max-width: 390px;
 }
-.new-offer-celeb-img{
+
+.new-offer-celeb-img {
     max-width: 460px;
     border: 15px solid #F00;
     padding: 48px;
     border-radius: 463px;
     justify-content: space-around;
-    
+
 }
-.new-offer-newyear{
-    max-width: 270px ;
+
+.new-offer-newyear {
+    max-width: 270px;
     padding-top: 50px;
 }
 
-.offer-heading{
+.offer-heading {
     color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-margin-bottom: 16px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
 }
 
-.offer-description{
+.offer-description {
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-margin-top: 19px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 19px;
 }
 
-.year{
+.year {
     color: #F00;
-font-family: Inter;
-font-size: 48px;
-font-weight: 700;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
 }
-.hny-img{
+
+.hny-img {
     margin-top: 43px;
 }
 
 /* Section Five */
-.holiday-sale{
+.holiday-sale {
     text-align: center;
     padding: 0;
 }
-.holiday-sale-img{
+
+.holiday-sale-img {
     max-width: 1320px;
     display: flex;
     background-image: url("../images/Rectangle-2.png"), url("../images/Rectangle-1.png");
     background-repeat: no-repeat;
     background-position: bottom, top right;
 }
-.holiday-sale-content{
-    margin:  120px auto 60px;
+
+.holiday-sale-content {
+    margin: 120px 126px 60px;
 }
 
-.holiday-sale-content h6{
+.holiday-sale-content h6 {
     color: #070211;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-margin-top: 60px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 60px;
 }
 
-.holiday-sale-content h1{
+.holiday-sale-content h1 {
     color: #070211;
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
-margin-top: 16px;
-margin-bottom: 28px;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 28px;
 }
 
-.holiday-sale-content span{
+.holiday-sale-content span {
     color: #F00;
-font-family: Merriweather;
-font-size: 72px;
-font-weight: 900;
-}
-.holiday-sale-content p{
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 500;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
 }
 
-.discount-img{
+.holiday-sale-content p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.discount-img {
     margin-top: 155px;
     width: 206px;
-    height:206px
+    height: 206px
 }
+
+/* Section Six */
+.best-gifts-text {
+    padding-top: 60px;
+}
+
+.gifts-d {
+    margin: 22px 400px 48px 0px;
+}
+
+.best-gifts-img-s1 {
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+
+.gift-items {
+    height: 450px;
+    width: 420px;
+
+}
+
+.best-gifts-img-s1 img {
+    transition: all 1s;
+}
+
+.best-gifts-img-s1 img:hover {
+    width: 35%;
+}
+
+/* Section Seven */
+.newsletter {
+    margin-top: 120px;
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 80px 0;
+}
+
+.newsletter img{
+    margin-bottom: 40px;
+}
+
+.newsletter-text{
+    margin-bottom: 48px;
+    padding: 0 212px
+}
+
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+}
+.email-input{
+    border-radius: 50px 0px 0px 50px;
+background: #FFF;
+padding: 28px 300px 28px 30px;
+border: 0;
+
+}
+
+.email-input::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+}
+    
+
+.subscribe-button{
+    border-radius: 0px 50px 50px 0px;
+background: #F00;
+border: 0;
+padding: 24px 56px;
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+}
+
 /* Footer Styles */
+
