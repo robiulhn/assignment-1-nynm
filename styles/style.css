@@ -314,105 +314,112 @@
     padding: 80px 0;
 }
 
-.newsletter img{
+.newsletter img {
     margin-bottom: 40px;
 }
 
-.newsletter-text{
+.newsletter-text {
     margin-bottom: 48px;
     padding: 0 212px
 }
 
-.newsletter-form{
+.newsletter-form {
     display: flex;
     justify-content: center;
 }
-.email-input{
+
+.email-input {
     border-radius: 50px 0px 0px 50px;
-background: #FFF;
-padding: 28px 300px 28px 30px;
-border: 0;
+    background: #FFF;
+    padding: 28px 300px 28px 30px;
+    border: 0;
 
 }
 
-.email-input::placeholder{
+.email-input::placeholder {
     color: rgba(7, 2, 17, 0.30);
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
 }
-    
 
-.subscribe-button{
+
+.subscribe-button {
     border-radius: 0px 50px 50px 0px;
-background: #F00;
-border: 0;
-padding: 24px 56px;
-color: #FFF;
-font-family: Inter;
-font-size: 20px;
-font-weight: 600;
+    background: #F00;
+    border: 0;
+    padding: 24px 56px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* Footer Styles */
 
-footer{
+footer {
     background-color: #070211;
     margin-top: 120px;
     margin-bottom: 0;
     padding: 120px 0;
 
 }
-.footer-initial{
+
+.footer-initial {
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
-.footer-initial-one{
+
+.footer-initial-one {
     padding-right: 550px;
 }
 
-.footer-initial-one p{
-color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-}
-.footer-initial-two{
-    display: block;
-    padding-right: 130px;
-}
-.footer-initial-two-one{
-    display:flex;
-    gap: 10px;
-}
-.footer-initial-two-one p{
+.footer-initial-one p {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
-    font-weight: 500;  
+    font-weight: 500;
 }
 
-.footer-middle{
+.footer-initial-two {
+    display: block;
+    padding-right: 130px;
+}
+
+.footer-initial-two-one {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-initial-two-one p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-middle {
     margin: 48px 0;
     display: flex;
     gap: 24px;
     justify-content: center
 }
 
-.footer-end{
+.footer-end {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
 }
-.footer-end p{
+
+.footer-end p {
     color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
 
-.hr-line{
+.hr-line {
     height: 1px;
     background-color: rgba(255, 255, 255, 0.15);
     border: 0;
