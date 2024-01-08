@@ -9,7 +9,7 @@
 .container {
     width: 82.5%;
     max-width: 1320px;
-    margin: 50px auto;
+    margin: 50px auto 0px;
 
 }
 
@@ -177,11 +177,11 @@
 }
 
 .new-offer {
-    max-width: 390px;
+    max-width: 305px;
 }
 
 .new-offer-celeb-img {
-    max-width: 460px;
+    max-width: 400px;
     border: 15px solid #F00;
     padding: 48px;
     border-radius: 463px;
@@ -190,7 +190,7 @@
 }
 
 .new-offer-newyear {
-    max-width: 270px;
+    max-width: 290px;
     padding-top: 50px;
 }
 
@@ -356,3 +356,64 @@ font-weight: 600;
 
 /* Footer Styles */
 
+footer{
+    background-color: #070211;
+    margin-top: 120px;
+    margin-bottom: 0;
+    padding: 120px 0;
+
+}
+.footer-initial{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.footer-initial-one{
+    padding-right: 550px;
+}
+
+.footer-initial-one p{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.footer-initial-two{
+    display: block;
+    padding-right: 130px;
+}
+.footer-initial-two-one{
+    display:flex;
+    gap: 10px;
+}
+.footer-initial-two-one p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;  
+}
+
+.footer-middle{
+    margin: 48px 0;
+    display: flex;
+    gap: 24px;
+    justify-content: center
+}
+
+.footer-end{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer-end p{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+
+.hr-line{
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 0;
+}
